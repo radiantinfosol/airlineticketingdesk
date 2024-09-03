@@ -1459,6 +1459,9 @@ input#submit:hover {
 
 .navbar.navbar-default {
   transition: none; }
+  .trip-box {
+    padding: 0 0px !important;
+  }
 
 header #navbar {
   width: 100%;
