@@ -1,0 +1,1325 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="zxx">
+
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>AL Ticketing Desk</title>    
+<meta name="description" content="Reserve your cheap airline flights"/>
+<link rel="canonical" href="https://www.airlineticketingdesk.com"/>
+<meta property="og:title" content="AL Ticketing Desk"/>
+<meta property="og:description" content="Reserve your cheap airline flights with AL Ticketing Desk. Your top traveller agency for airplane reservation and ticket booking.Your go-to traveler agency for affordable air travel. Fly smart, save more!"/>
+<meta property="og:image" content="https://www.airlineticketingdesk.com/images/social-share.jpg"/>
+<meta property="og:image:width" content="1920"/>
+<meta property="og:image:height" content="1080"/>
+<meta property="og:url" content="https://www.airlineticketingdesk.com"/>
+<meta property="og:site_name" content="AL Ticketing Desk "/>
+<meta property="og:type" content="website"/>    
+<meta name="twitter:card" content="summary_large_image"/>
+<meta name="twitter:title" content="AL Ticketing Desk"/>
+<meta name="twitter:description" content="Reserve your cheap airline flights with AL Ticketing Desk. Your top traveller agency for airplane reservation and ticket booking.Your go-to traveler agency for affordable air travel. Fly smart, save more!"/>
+<meta name="twitter:image" content="https://www.airlineticketingdesk.com/images/social-share.jpg"/>
+
+<link rel="shortcut icon" type="image/x-icon" href="images/favicon.png">
+
+<link href="css/bootstrap.min.css" rel="stylesheet" type="text/css">
+<link href="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.css" rel="stylesheet">
+<link href="css/style.css" rel="stylesheet" type="text/css">
+<link href="css/plugin.css" rel="stylesheet" type="text/css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+<link rel="stylesheet" href="fonts/line-icons.css" type="text/css">
+</head>
+<body>
+
+<div id="preloader">
+<div id="status"></div>
+</div>
+
+
+<header class="main_header_area">
+<div class="header-content py-1 bg-theme">
+<div class="container d-flex align-items-center justify-content-between">
+<div class="links">
+<ul>
+<li><a href="#" class="white"><i class="icon-phone white"></i>(888)870-0414</a>
+</li>
+<li><a href="#" class="white"><i class="icon-location-pin white"></i> help@airlineticketingdesk.com</a>
+</li>
+</ul>
+</div>
+<div class="links float-right">
+<ul>
+<li><a href="#" class="white"><i class="fab fa-facebook" aria-hidden="true"></i></a></li>
+<li><a href="#" class="white"><i class="fab fa-twitter" aria-hidden="true"></i></a></li>
+<li><a href="#" class="white"><i class="fab fa-instagram" aria-hidden="true"></i></a></li>
+<li><a href="#" class="white"><i class="fab fa-linkedin " aria-hidden="true"></i></a></li>
+</ul>
+</div>
+</div>
+</div>
+
+<div class="header_menu" id="header_menu">
+<nav class="navbar navbar-default">
+<div class="container">
+<div class="navbar-flex d-flex align-items-center justify-content-between w-100 pb-3 pt-3">
+
+<div class="navbar-header">
+<a class="navbar-brand" href="index.html">
+<img src="images/logo.png" alt="image">
+</a>
+</div>
+
+<div class="navbar-collapse1 d-flex align-items-center" id="bs-example-navbar-collapse-1">
+<ul class="nav navbar-nav" id="responsive-menu">
+<li class="active"><a href="index.html">Home</a></li>
+<li><a href="about.html">About Us</a></li>
+<li><a href="flight-list.html">Flights</a></li>
+<li><a href="contact.html">Contact Us</a></li>
+</ul>
+</div>
+
+<div class="register-login d-flex align-items-center">
+<a href="#" class="nir-btn white"><i class="icon-phone white"></i> (888)870-0414</a>
+</div>
+<div id="slicknav-mobile"></div>
+</div>
+</div>
+</nav>
+</div>
+</header>
+
+
+<section class="banner flight-banner pb-0 overflow-hidden" style="background-image:url(images/testimonial.png);">
+<div class="container">
+<div class="banner-in">
+<div class="row align-items-center">
+<div class="col-lg-6 mb-4">
+<div class="banner-content text-lg-start text-center">
+<h4 class="theme mb-0">Explore The World</h4>
+<h1>Start Planning Your Dream Trip Today!</h1>
+<p class="mb-4">Unlock exclusive deals and updates.</p>
+<div class="book-form position-absolute w-100 bg-white box-shadow p-4 pb-1 z-index1 rounded">
+<div class="row d-flex align-items-center justify-content-between">
+<div class="col-lg mb-2">
+<div class="form-group">
+<div class="input-box">
+<label>From</label>
+<input type="text" id="auto" />
+
+</div>
+</div>
+</div>
+<div class="col-lg mb-2">
+<div class="form-group">
+<div class="input-box">
+<label>To</label>
+<input type="text" id="auto1" />
+</div>
+</div>
+</div>
+<div class="col-lg mb-2">
+<div class="form-group">
+<div class="input-box">
+<label>Depart</label>
+<input type="date" name="Depart">
+</div>
+</div>
+</div>
+<div class="col-lg mb-2">
+<div class="form-group">
+<div class="input-box">
+<label>Return</label>
+<input type="date" name="Return">
+</div>
+</div>
+</div>
+<div class="col-lg mb-2">
+<div class="form-group">
+<div class="input-box">
+<label>Travellers</label>
+<select class="niceSelect">
+<option value="1">2 Travellers</option>
+<option value="2">5 Travellers</option>
+<option value="3">7 Travellers</option>
+</select>
+</div>
+</div>
+</div>
+<div class="col-lg mb-2">
+<div class="form-group mb-0 text-center">
+<label class="mb-3"></label>
+<a href="#" data-bs-toggle="modal" data-bs-target="#exampleModal" class="nir-btn w-100"><i class="fa fa-search mr-2"></i> Search</a>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="col-lg-6 mb-4 position-relative">
+<div class="flight-slider">
+<div class="row review-slider1">
+<div class="col-lg">
+<img src="images/flights/3.jpg" alt class="rounded">
+</div>
+<div class="col-lg">
+<img src="images/flights/4.jpg" alt class="rounded">
+</div>
+<div class="col-lg">
+<img src="images/flights/5.jpg" alt class="rounded">
+</div>
+</div>
+</div>
+</div>
+</div>
+
+<div class="category-main-inner border-t pt-1">
+<div class="row side-slider">
+<div class="col-lg-3 col-md-6 my-4">
+<div class="category-item box-shadow p-3 py-4 text-center bg-white rounded overflow-hidden">
+<div class="trending-topic-content">
+<img src="images/flights/flight_grid_2.png" class="mb-1 d-inline-block" alt>
+<h5 class="mb-0"><a href="#">Americans Airlines</a></h5>
+</div>
+</div>
+</div>
+<div class="col-lg-3 col-md-6 my-4">
+<div class="category-item box-shadow p-3 py-4 text-center bg-white rounded overflow-hidden">
+<div class="trending-topic-content text-center">
+<img src="images/flights/flight_grid_3.png" class="mb-1 d-inline-block" alt>
+<h5 class="mb-0"><a href="#">Southwest Airlines</a></h5>
+</div>
+</div>
+</div>
+<div class="col-lg-3 col-md-6 my-4">
+<div class="category-item box-shadow p-3 py-4 text-center bg-white rounded overflow-hidden">
+<div class="trending-topic-content">
+<img src="images/flights/flight_grid_4.png" class="mb-1 d-inline-block" alt>
+<h5 class="mb-0"><a href="#">Delta Airlines</a></h5>
+</div>
+</div>
+</div>
+<div class="col-lg-3 col-md-6 my-4">
+<div class="category-item box-shadow p-3 py-4 text-center bg-white rounded overflow-hidden">
+<div class="trending-topic-content">
+<img src="images/flights/flight_grid_5.png" class="mb-1 d-inline-block" alt>
+<h5 class="mb-0"><a href="#">United Airlines</a></h5>
+</div>
+</div>
+</div>
+<div class="col-lg-3 col-md-6 my-4">
+<div class="category-item box-shadow p-3 py-4 text-center bg-white rounded overflow-hidden">
+<div class="trending-topic-content">
+<img src="images/flights/flight_grid_6.png" class="mb-1 d-inline-block" alt>
+<h5 class="mb-0"><a href="#">Lufthansa Airlines</a></h5>
+</div>
+</div>
+</div>
+<div class="col-lg-3 col-md-6 my-4">
+<div class="category-item box-shadow p-3 py-4 text-center bg-white rounded overflow-hidden">
+<div class="trending-topic-content">
+<img src="images/flights/flight_grid_7.png" class="mb-1 d-inline-block" alt>
+<h5 class="mb-0"><a href="#">British Airlines</a></h5>
+</div>
+</div>
+</div>
+<div class="col-lg-3 col-md-6 my-4">
+<div class="category-item box-shadow p-3 py-4 text-center bg-white rounded overflow-hidden">
+<div class="trending-topic-content">
+<img src="images/flights/flight_grid_2.png" class="mb-1 d-inline-block" alt>
+<h5 class="mb-0"><a href="#">Americans Airlines</a></h5>
+</div>
+</div>
+</div>
+<div class="col-lg-3 col-md-6 my-4">
+<div class="category-item box-shadow p-3 py-4 text-center bg-white rounded overflow-hidden">
+<div class="trending-topic-content text-center">
+<img src="images/flights/flight_grid_3.png" class="mb-1 d-inline-block" alt>
+<h5 class="mb-0"><a href="#">Southwest Airlines</a></h5>
+</div>
+</div>
+</div>
+<div class="col-lg-3 col-md-6 my-4">
+<div class="category-item box-shadow p-3 py-4 text-center bg-white rounded overflow-hidden">
+<div class="trending-topic-content">
+<img src="images/flights/flight_grid_4.png" class="mb-1 d-inline-block" alt>
+<h5 class="mb-0"><a href="#">Delta Airlines</a></h5>
+</div>
+</div>
+</div>
+<div class="col-lg-3 col-md-6 my-4">
+<div class="category-item box-shadow p-3 py-4 text-center bg-white rounded overflow-hidden">
+<div class="trending-topic-content">
+<img src="images/flights/flight_grid_5.png" class="mb-1 d-inline-block" alt>
+<h5 class="mb-0"><a href="#">United Airlines</a></h5>
+</div>
+</div>
+</div>
+<div class="col-lg-3 col-md-6 my-4">
+<div class="category-item box-shadow p-3 py-4 text-center bg-white rounded overflow-hidden">
+<div class="trending-topic-content">
+<img src="images/flights/flight_grid_6.png" class="mb-1 d-inline-block" alt>
+<h5 class="mb-0"><a href="#">Lufthansa Airlines</a></h5>
+</div>
+</div>
+</div>
+<div class="col-lg-3 col-md-6 my-4">
+<div class="category-item box-shadow p-3 py-4 text-center bg-white rounded overflow-hidden">
+<div class="trending-topic-content">
+<img src="images/flights/flight_grid_7.png" class="mb-1 d-inline-block" alt>
+<h5 class="mb-0"><a href="#">British Airlines</a></h5>
+</div>
+</div>
+</div>
+</div>
+</div>
+
+</div>
+</div>
+</section>
+
+
+<section class="about-us pt-10">
+<div class="container">
+<div class="about-image-box">
+<div class="row d-flex align-items-center justify-content-between">
+<div class="col-lg-6 mb-4 pe-4">
+<div class="about-image overflow-hidden">
+<img src="images/travel1.png" alt="">
+</div>
+</div>
+<div class="col-lg-6 mb-4 ps-4">
+<div class="about-content text-center text-lg-start mb-4">
+<h4 class="theme d-inline-block mb-0">Get To Know Us</h4>
+<h2 class="border-b mb-2 pb-1">Travel with ease with our exiting plans</h2>
+<p class="border-b mb-2 pb-2">We are dedicated to simplifying your travel experience with a focus on convenience, affordability, and exceptional service. As a top provider of affordable flight options, we specialize in making your travel plans both easy and economical. Our user-friendly platform allows you to book flights online quickly and conveniently, whether you're looking for domestic or international tickets. With our extensive network, you’ll find the best deals on plane tickets, ensuring your travel is both accessible and affordable. Explore our offerings and start your journey with confidence!</p>
+<div class="about-listing">
+<ul class="d-flex justify-content-between">
+<li><i class="icon-location-pin theme"></i> Tour Guide</li>
+<li><i class="icon-briefcase theme"></i> Friendly Price</li>
+<li><i class="icon-folder theme"></i> Reliable Tour Package</li>
+</ul>
+</div>
+</div>
+</div>
+<div class="col-lg-12">
+
+<div class="counter-main w-75 float-end">
+<div class="counter p-4 pb-0 box-shadow bg-white rounded">
+<div class="row">
+<div class="col-lg-3 col-md-6 col-sm-6 mb-4">
+<div class="counter-item border-end pe-4">
+<div class="counter-content">
+<h2 class="value mb-0 theme">18</h2>
+<span class="m-0">Years Experiences</span>
+</div>
+</div>
+</div>
+<div class="col-lg-3 col-md-6 col-sm-6 mb-4">
+<div class="counter-item border-end pe-4">
+<div class="counter-content">
+<h2 class="value mb-0 theme">477</h2>
+<span class="m-0">Tour Packages</span>
+</div>
+</div>
+</div>
+<div class="col-lg-3 col-md-6 col-sm-6 mb-4">
+<div class="counter-item border-end pe-4">
+<div class="counter-content">
+<h2 class="value mb-0 theme">765</h2>
+<span class="m-0">Happy Customers</span>
+</div>
+</div>
+</div>
+<div class="col-lg-3 col-md-6 col-sm-6 mb-4">
+<div class="counter-item">
+<div class="counter-content">
+<h2 class="value mb-0 theme">288</h2>
+<span class="m-0">Award Winning</span>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+
+
+</div>
+</div>
+</div>
+<div class="white-overlay"></div>
+</section>
+
+<section class="about-us pb-6 pt-6" style="background-image:url(images/shape4.png); background-position:center;">
+<div class="container">
+<div class="section-title mb-6 w-50 mx-auto text-center">
+<h4 class="mb-1 theme1">Why To Choose Us</h4>
+<h2 class="mb-1">Find <span class="theme">Travel Perfection</span></h2>
+<p>With a commitment to excellent service, we ensure that your travel plans are handled with care and professionalism every step of the way.</p>
+</div>
+
+<div class="why-us">
+<div class="why-us-box">
+<div class="row">
+<div class="col-lg-3 col-md-6 col-sm-6 mb-4">
+<div class="why-us-item text-center p-4 py-5 border rounded bg-white">
+<div class="why-us-content">
+<div class="why-us-icon">
+<i class="icon-location-pin theme"></i>
+</div>
+<h4><a href="#">Easy Booking</a></h4>
+<p class="mb-0">We make flight bookings easy and convenient, with great deals and offers.</p>
+</div>
+</div>
+</div>
+<div class="col-lg-3 col-md-6 col-sm-6 mb-4">
+<div class="why-us-item text-center p-4 py-5 border rounded bg-white">
+<div class="why-us-content">
+<div class="why-us-icon">
+<i class="icon-compass theme"></i>
+</div>
+<h4><a href="#">Best Price</a></h4>
+<p class="mb-0">We offer guaranteed low rates on flight bookings and holiday packages</p>
+</div>
+</div>
+</div>
+<div class="col-lg-3 col-md-6 col-sm-6 mb-4">
+<div class="why-us-item text-center p-4 py-5 border rounded bg-white">
+<div class="why-us-content">
+<div class="why-us-icon">
+<i class="icon-flag theme"></i>
+</div>
+<h4><a href="#">Exciting Offers</a></h4>
+<p class="mb-0">Take advantage of fantastic offers on flights and tour packages.</p>
+</div>
+</div>
+</div>
+<div class="col-lg-3 col-md-6 col-sm-6 mb-4">
+<div class="why-us-item text-center p-4 py-5 border rounded bg-white">
+<div class="why-us-content">
+<div class="why-us-icon">
+<i class="icon-compass theme"></i>
+</div>
+<h4><a href="#">24x7 Support</a></h4>
+<p class="mb-0">We're available 24/7 to assist with any travel-related questions. Feel free to reach out anytime!</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="white-overlay"></div>
+</section>
+
+
+<section class="trending pb-17 pt-0" style="background-image:url(images/bg/bg-trans.png); background-position: left; background-size: cover;">
+<div class="section-shape section-shape1 top-inherit bottom-0" style="background-image: url(images/shape8.png);"></div>
+<div class="container">
+<div class="section-title mb-6 w-50 mx-auto text-center">
+<h4 class="mb-1 theme1">Top Destinations</h4>
+<h2 class="mb-1">Explore <span class="theme">Top Destinations</span></h2>
+<p>Enjoy exciting promotions and special deals on various travel services, making your journey more affordable and enjoyable.</p>
+</div>
+<div class="row align-items-center">
+<div class="col-lg-5 mb-4">
+<div class="trend-item1">
+<div class="trend-image position-relative rounded">
+<img src="images/flights/3.jpg" alt="image" class="w-100">
+<div class="trend-content d-flex align-items-center justify-content-between position-absolute bottom-0 p-4 w-100 z-index">
+<div class="trend-content-title">
+<h5 class="mb-0"><a href="#" class="theme1">Canada</a></h5>
+<h3 class="mb-0 white">Niagara Falls</h3>
+</div>
+<span class="white bg-theme p-1 px-2 rounded">15 Tours</span>
+</div>
+<div class="color-overlay"></div>
+</div>
+</div>
+</div>
+<div class="col-lg-7">
+<div class="row">
+<div class="col-lg-6 col-md-6 col-sm-6 mb-4">
+<div class="trend-item1">
+<div class="trend-image position-relative rounded">
+<img src="images/flights/6.jpg" alt="image">
+<div class="trend-content d-flex align-items-center justify-content-between position-absolute bottom-0 p-4 w-100 z-index">
+<div class="trend-content-title">
+<h5 class="mb-0"><a href="#" class="theme1">New York</a>
+</h5>
+<h3 class="mb-0 white">Statue of Liberty</h3>
+</div>
+<span class="white bg-theme p-1 px-2 rounded">18 Tours</span>
+</div>
+<div class="color-overlay"></div>
+</div>
+</div>
+</div>
+<div class="col-lg-6 col-md-6 col-sm-6 mb-4">
+<div class="trend-item1">
+<div class="trend-image position-relative rounded">
+<img src="images/flights/7.jpg" alt="image">
+<div class="trend-content d-flex align-items-center justify-content-between position-absolute bottom-0 p-4 w-100 z-index">
+<div class="trend-content-title">
+<h5 class="mb-0"><a href="#" class="theme1">Washington</a>
+</h5>
+<h3 class="mb-0 white">Washington Monument</h3>
+</div>
+<span class="white bg-theme p-1 px-2 rounded">21 Tours</span>
+</div>
+<div class="color-overlay"></div>
+</div>
+</div>
+</div>
+<div class="col-lg-6 col-md-6 col-sm-6 mb-4">
+<div class="trend-item1">
+<div class="trend-image position-relative rounded">
+<img src="images/flights/8.jpg" alt="image">
+<div class="trend-content d-flex align-items-center justify-content-between position-absolute bottom-0 p-4 w-100">
+<div class="trend-content-title">
+<h5 class="mb-0"><a href="#" class="theme1">California</a>
+</h5>
+<h3 class="mb-0 white">Golden Gate Bridge</h3>
+</div>
+<span class="white bg-theme p-1 px-2 rounded">15 Tours</span>
+</div>
+<div class="color-overlay"></div>
+</div>
+</div>
+</div>
+<div class="col-lg-6 col-md-6 col-sm-6 mb-4">
+<div class="trend-item1">
+<div class="trend-image position-relative rounded">
+<img src="images/flights/9.jpg" alt="image">
+<div class="trend-content d-flex align-items-center justify-content-between position-absolute bottom-0 p-4 w-100 z-index">
+<div class="trend-content-title">
+<h5 class="mb-0"><a href="#" class="theme1">Alaska</a>
+</h5>
+<h3 class="mb-0 white">Anchorage Museum</h3>
+</div>
+<span class="white bg-theme p-1 px-2 rounded">32 Tours</span>
+</div>
+<div class="color-overlay"></div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="white-overlay"></div>
+</section>
+
+<section class="flight-list pt-0">
+<div class="container">
+<div class="section-title mb-6 w-50 mx-auto text-center">
+<h4 class="mb-1 theme1">Recommended Flights</h4>
+<h2 class="mb-1">Find Your <span class="theme">Flight Scheduled</span></h2>
+<p>Our user-friendly platform makes it easy to find and book flights and packages with just a few clicks.</p>
+</div>
+<div class="flight-list">
+<div class="flight-navtab text-center">
+<div class="nav nav-tabs mb-0" id="nav-tab" role="tablist">
+<button class="nav-link active" id="nav-schedule1-tab" data-bs-toggle="tab" data-bs-target="#schedule1" type="button" role="tab" aria-selected="true">Wednesday<span>Aug 28, 2024</span></button>
+<button class="nav-link" id="nav-schedule2-tab" data-bs-toggle="tab" data-bs-target="#schedule2" type="button" role="tab" aria-selected="false">Monday<span>Sep 02, 2024</span></button>
+<button class="nav-link" id="nav-schedule3-tab" data-bs-toggle="tab" data-bs-target="#schedule3" type="button" role="tab" aria-selected="false">Sunday<span>Sep 15, 2024</span></button>
+<button class="nav-link" id="nav-schedule4-tab" data-bs-toggle="tab" data-bs-target="#schedul4" type="button" role="tab" aria-selected="false">Saturday<span>Sep 28, 2024</span></button>
+<button class="nav-link" id="nav-schedule5-tab" data-bs-toggle="tab" data-bs-target="#schedule5" type="button" role="tab" aria-selected="false">Friday<span>Oct 17, 2024</span></button>
+<button class="nav-link" id="nav-schedule6-tab" data-bs-toggle="tab" data-bs-target="#schedule6" type="button" role="tab" aria-selected="false">Tuesday<span>Oct 22, 2024</span></button>
+<button class="nav-link" id="nav-schedule7-tab" data-bs-toggle="tab" data-bs-target="#schedule7" type="button" role="tab" aria-selected="false">Thursday<span>Nov 10, 2024</span></button>
+</div>
+</div>
+<div class="tab-content" id="nav-tabContent">
+<div class="tab-pane fade show active text-center" id="schedule1" role="tabpanel" aria-labelledby="nav-schedule1-tab">
+<div class="flight-full">
+<div class="item mb-2 border-all p-2 px-4 rounded">
+<div class="row d-flex align-items-center justify-content-between">
+<div class="col-lg-3 col-md-3 col-sm-12">
+<div class="item-inner-image text-start text-center">
+<img src="images/flights/flight_grid_2.png" alt="image">
+<h5 class="mb-0">Americans Airlines</h5>
+</div>
+</div>
+<div class="col-lg-2 col-md-2 col-sm-12">
+<div class="item-inner">
+<div class="content">
+<h4 class="mb-0">Sunday Sep 05, 2024</h4>
+</div>
+</div>
+</div>
+<div class="col-lg-3 col-md-3 col-sm-12">
+<div class="item-inner">
+<div class="content">
+<h3 class="mb-0">7:30</h3>
+<p class="mb-0 text-uppercase">DAC</p>
+</div>
+</div>
+</div>
+<div class="col-lg-2 col-md-2 col-sm-12">
+<div class="item-inner flight-time">
+<p class="mb-0">02H 45M <br>2 Stops</p>
+</div>
+</div>
+<div class="col-lg-2 col-md-2 col-sm-12">
+<div class="item-inner text-end">
+<a href="#" data-bs-toggle="modal" data-bs-target="#exampleModal" class="nir-btn-black">View Deals</a>
+</div>
+</div>
+</div>
+</div>
+<div class="item mb-2 border-all p-2 px-4 rounded">
+<div class="row d-flex align-items-center justify-content-between">
+<div class="col-lg-3 col-md-3 col-sm-12">
+<div class="item-inner-image text-start text-center">
+<img src="images/flights/flight_grid_3.png" alt="image">
+<h5 class="mb-0">Southwest Airlines</h5>
+</div>
+</div>
+<div class="col-lg-2 col-md-2 col-sm-12">
+<div class="item-inner">
+<div class="content">
+<h4 class="mb-0">Friday Sep 18, 2024</h4>
+</div>
+</div>
+</div>
+<div class="col-lg-3 col-md-3 col-sm-12">
+<div class="item-inner">
+<div class="content">
+<h3 class="mb-0">9:30</h3>
+<p class="mb-0 text-uppercase">DAC</p>
+</div>
+</div>
+</div>
+<div class="col-lg-2 col-md-2 col-sm-12">
+<div class="item-inner flight-time">
+<p class="mb-0">22H 45M <br>1 Stops</p>
+</div>
+</div>
+<div class="col-lg-2 col-md-2 col-sm-12">
+<div class="item-inner text-end">
+<a href="#" data-bs-toggle="modal" data-bs-target="#exampleModal" class="nir-btn">View Deals</a>
+</div>
+</div>
+</div>
+</div>
+<div class="item mb-2 border-all p-2 px-4 rounded">
+<div class="row d-flex align-items-center justify-content-between">
+<div class="col-lg-3 col-md-3 col-sm-12">
+<div class="item-inner-image text-start text-center">
+<img src="images/flights/flight_grid_4.png" alt="image">
+<h5 class="mb-0">Delta Airlines</h5>
+</div>
+</div>
+<div class="col-lg-2 col-md-2 col-sm-12">
+<div class="item-inner">
+<div class="content">
+<h4 class="mb-0">Saturday Oct 11, 2024</h4>
+</div>
+</div>
+</div>
+<div class="col-lg-3 col-md-3 col-sm-12">
+<div class="item-inner">
+<div class="content">
+<h3 class="mb-0">18:30</h3>
+<p class="mb-0 text-uppercase">DAC</p>
+</div>
+</div>
+</div>
+<div class="col-lg-2 col-md-2 col-sm-12">
+<div class="item-inner flight-time">
+<p class="mb-0">12H 45M <br>2 Stops</p>
+</div>
+</div>
+<div class="col-lg-2 col-md-2 col-sm-12">
+<div class="item-inner text-end">
+<a href="#" data-bs-toggle="modal" data-bs-target="#exampleModal" class="nir-btn-black">View Deals</a>
+</div>
+</div>
+</div>
+</div>
+<div class="item mb-2 border-all p-2 px-4 rounded">
+<div class="row d-flex align-items-center justify-content-between">
+<div class="col-lg-3 col-md-3 col-sm-12">
+<div class="item-inner-image text-start text-center">
+<img src="images/flights/flight_grid_5.png" alt="image">
+<h5 class="mb-0">United Airlines</h5>
+</div>
+</div>
+<div class="col-lg-2 col-md-2 col-sm-12">
+<div class="item-inner">
+<div class="content">
+<h4 class="mb-0">Sunday Oct 15, 2024</h4>
+</div>
+</div>
+</div>
+<div class="col-lg-3 col-md-3 col-sm-12">
+<div class="item-inner">
+<div class="content">
+<h3 class="mb-0">12:30</h3>
+<p class="mb-0 text-uppercase">DAC</p>
+</div>
+</div>
+</div>
+<div class="col-lg-2 col-md-2 col-sm-12">
+<div class="item-inner flight-time">
+<p class="mb-0">16H 45M <br>2 Stops</p>
+</div>
+</div>
+<div class="col-lg-2 col-md-2 col-sm-12">
+<div class="item-inner text-end">
+<a href="#" data-bs-toggle="modal" data-bs-target="#exampleModal" class="nir-btn-black">View Deals</a>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="tab-pane fade content text-center" id="schedule2" role="tabpanel" aria-labelledby="nav-schedule2-tab">
+<div class="flight-full">
+<div class="item mb-2 border-all p-2 px-4 rounded">
+<div class="row d-flex align-items-center justify-content-between">
+<div class="col-lg-3 col-md-3 col-sm-12">
+<div class="item-inner-image text-start text-center">
+<img src="images/flights/flight_grid_3.png" alt="image">
+<h5 class="mb-0">Lufthansa Airlines</h5>
+</div>
+</div>
+<div class="col-lg-2 col-md-2 col-sm-12">
+<div class="item-inner">
+<div class="content">
+<h4 class="mb-0">Thursday Nov 05, 2024</h4>
+</div>
+</div>
+</div>
+<div class="col-lg-3 col-md-3 col-sm-12">
+<div class="item-inner">
+<div class="content">
+<h3 class="mb-0">14:30</h3>
+<p class="mb-0 text-uppercase">DAC</p>
+</div>
+</div>
+</div>
+<div class="col-lg-2 col-md-2 col-sm-12">
+<div class="item-inner flight-time">
+<p class="mb-0">20H 45M <br>2 Stops</p>
+</div>
+</div>
+<div class="col-lg-2 col-md-2 col-sm-12">
+<div class="item-inner text-end">
+<a href="#" data-bs-toggle="modal" data-bs-target="#exampleModal" class="nir-btn">View Deals</a>
+</div>
+</div>
+</div>
+</div>
+<div class="item mb-2 border-all p-2 px-4 rounded">
+<div class="row d-flex align-items-center justify-content-between">
+<div class="col-lg-3 col-md-3 col-sm-12">
+<div class="item-inner-image text-start text-center">
+<img src="images/flights/flight_grid_4.png" alt="image">
+<h5 class="mb-0">British Airlines</h5>
+</div>
+</div>
+<div class="col-lg-2 col-md-2 col-sm-12">
+<div class="item-inner">
+<div class="content">
+<h4 class="mb-0">Thursday Nov 15, 2024</h4>
+</div>
+</div>
+</div>
+<div class="col-lg-3 col-md-3 col-sm-12">
+<div class="item-inner">
+<div class="content">
+<h3 class="mb-0">7:30</h3>
+<p class="mb-0 text-uppercase">DAC</p>
+</div>
+</div>
+</div>
+<div class="col-lg-2 col-md-2 col-sm-12">
+<div class="item-inner flight-time">
+<p class="mb-0">12H 35M <br>2 Stops</p>
+</div>
+</div>
+<div class="col-lg-2 col-md-2 col-sm-12">
+<div class="item-inner text-end">
+<a href="#" data-bs-toggle="modal" data-bs-target="#exampleModal" class="nir-btn-black">View Deals</a>
+</div>
+</div>
+</div>
+</div>
+<div class="item mb-2 border-all p-2 px-4 rounded">
+<div class="row d-flex align-items-center justify-content-between">
+<div class="col-lg-3 col-md-3 col-sm-12">
+<div class="item-inner-image text-start text-center">
+<img src="images/flights/flight_grid_2.png" alt="image">
+<h5 class="mb-0">Thai Airlines</h5>
+</div>
+</div>
+<div class="col-lg-2 col-md-2 col-sm-12">
+<div class="item-inner">
+<div class="content">
+<h4 class="mb-0">Friday Nov 18, 2024</h4>
+</div>
+</div>
+</div>
+<div class="col-lg-3 col-md-3 col-sm-12">
+<div class="item-inner">
+<div class="content">
+<h3 class="mb-0">11:30</h3>
+<p class="mb-0 text-uppercase">DAC</p>
+</div>
+</div>
+</div>
+<div class="col-lg-2 col-md-2 col-sm-12">
+<div class="item-inner flight-time">
+<p class="mb-0">22H 45M <br>1 Stops</p>
+</div>
+</div>
+<div class="col-lg-2 col-md-2 col-sm-12">
+<div class="item-inner text-end">
+<a href="#" data-bs-toggle="modal" data-bs-target="#exampleModal" class="nir-btn-black">View Deals</a>
+</div>
+</div>
+</div>
+</div>
+<div class="item mb-2 border-all p-2 px-4 rounded">
+<div class="row d-flex align-items-center justify-content-between">
+<div class="col-lg-3 col-md-3 col-sm-12">
+<div class="item-inner-image text-start text-center">
+<img src="images/flights/flight_grid_5.png" alt="image">
+<h5 class="mb-0">Dragon Airlines</h5>
+</div>
+</div>
+<div class="col-lg-2 col-md-2 col-sm-12">
+<div class="item-inner">
+<div class="content">
+<h4 class="mb-0">Saturday Dec 10, 2024</h4>
+</div>
+</div>
+</div>
+<div class="col-lg-3 col-md-3 col-sm-12">
+<div class="item-inner">
+<div class="content">
+<h3 class="mb-0">8:00</h3>
+<p class="mb-0 text-uppercase">DAC</p>
+</div>
+</div>
+</div>
+<div class="col-lg-2 col-md-2 col-sm-12">
+<div class="item-inner flight-time">
+<p class="mb-0">02H 45M <br>2 Stops</p>
+</div>
+</div>
+<div class="col-lg-2 col-md-2 col-sm-12">
+<div class="item-inner text-end">
+<a href="#" data-bs-toggle="modal" data-bs-target="#exampleModal" class="nir-btn-black">View Deals</a>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="flight-btn text-center"><a href="flight-list.html" class="nir-btn">View More</a></div>
+</div>
+</div>
+</section>
+
+
+<section class="trending pb-6 pt-8">
+<div class="container">
+<div class="row align-items-center justify-content-between mb-6 ">
+<div class="col-lg-7">
+<div class="section-title text-center text-lg-start">
+<h4 class="mb-1 theme1">Top Pick</h4>
+<h2 class="mb-1">Best <span class="theme">Tour Routes</span></h2>
+<p>From budget-friendly flights to all-inclusive holiday packages, we offer a wide range of options to meet your travel needs.</p>
+</div>
+</div>
+<div class="col-lg-5">
+</div>
+</div>
+<div class="trend-box">
+<div class="row item-slider">
+<div class="col-lg-4 col-md-6 col-sm-6 mb-4">
+<div class="trend-item rounded">
+<div class="trend-image position-relative">
+<img src="images/flights/flight2.jpg" alt="image" class>
+</div>
+<div class="trend-content1 position-relative pt-2 bg-white">
+<h3 class="mb-1"><a href="#" class>Alaska to California</a></h3>
+<p class="mb-3">Roundtrip | 09 Sep 2024 - 16 Sep 2024</p>
+<div class="entry-meta d-flex align-items-center justify-content-between">
+<div class="entry-author d-flex align-items-center">
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="col-lg-4 col-md-6 col-sm-6 mb-4">
+<div class="trend-item rounded">
+<div class="trend-image position-relative">
+<img src="images/flights/flight1.jpg" alt="image">
+</div>
+<div class="trend-content1 position-relative  pt-2 bg-white">
+<h3 class="mb-1"><a href="#" class>New York to London</a></h3>
+<p class="mb-3">Roundtrip | 09 Oct 2024 - 16 Oct 2024</p>
+<div class="entry-meta d-flex align-items-center justify-content-between">
+<div class="entry-author d-flex align-items-center">
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="col-lg-4 col-md-6 col-sm-6 mb-4">
+<div class="trend-item rounded">
+<div class="trend-image position-relative">
+<img src="images/flights/flight3.jpg" alt="image">
+</div>
+<div class="trend-content1 position-relative  pt-2 bg-white">
+<h3 class="mb-1"><a href="#" class>New Mexico to Paris</a></h3>
+<p class="mb-3">Roundtrip | 09 Oct 2024 - 16 Oct 2024</p>
+<div class="entry-meta d-flex align-items-center justify-content-between">
+<div class="entry-author d-flex align-items-center">
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="col-lg-4 col-md-6 col-sm-6 mb-4">
+<div class="trend-item rounded">
+<div class="trend-image position-relative">
+<img src="images/flights/flight4.jpg" alt="image">
+</div>
+<div class="trend-content1 position-relative  pt-2 bg-white">
+<h3 class="mb-1"><a href="#" class>Florida to California</a></h3>
+<p class="mb-3">Roundtrip | 09 Nov 2024 - 16 Nov 2024</p>
+<div class="entry-meta d-flex align-items-center justify-content-between">
+<div class="entry-author d-flex align-items-center">
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+
+
+<section class="trending pb-6" style="background-image: url(images/shape2.png);">
+<div class="container">
+<div class="section-title mb-6 w-75 mx-auto text-center">
+<h4 class="mb-1 theme1">OFFER DEALS</h4>
+<h2 class="mb-1">Flight <span class="theme">Offer Deals</span></h2>
+<p>Take advantage of exclusive time-sensitive offers and discounts on both domestic and international flights.</p>
+</div>
+<div class="trend-box">
+<div class="row">
+<div class="col-lg-7">
+<div class="row">
+<div class="col-lg-6 col-md-6 mb-4">
+<div class="trend-item rounded box-shadow">
+<div class="trend-image position-relative">
+<img src="images/trending/trending1.jpg" alt="image" class>
+<div class="color-overlay"></div>
+</div>
+<div class="trend-content p-4 position-relative bg-white">
+<h3 class="mb-1"><a href="#" class>Alaska to Finland</a></h3>
+<p class="mb-4">09 Oct 2024 - 16 Oct 2024</p>
+<p class=" border-b pb-2 mb-2">Duis aute irure dolor in reprehenderit in
+voluptate velit esse cillum</p>
+<div class="entry-meta d-flex align-items-center justify-content-between">
+<div class="entry-author d-flex align-items-center">
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="col-lg-6 col-md-6 mb-4">
+<div class="trend-item rounded box-shadow">
+<div class="trend-image position-relative">
+<img src="images/trending/trending2.jpg" alt="image" class>
+<div class="color-overlay"></div>
+</div>
+<div class="trend-content p-4 position-relative bg-white">
+<h3 class="mb-1"><a href="#" class>Dubai to New York</a></h3>
+<p class="mb-4">09 Oct 2024 - 16 Oct 2024</p>
+<p class=" border-b pb-2 mb-2">Duis aute irure dolor in reprehenderit in
+voluptate velit esse cillum</p>
+<div class="entry-meta d-flex align-items-center justify-content-between">
+<div class="entry-author d-flex align-items-center">
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="col-lg-6 col-md-6 mb-4">
+<div class="trend-item rounded box-shadow">
+<div class="trend-image position-relative">
+<img src="images/trending/trending3.jpg" alt="image" class>
+<div class="color-overlay"></div>
+</div>
+<div class="trend-content p-4 position-relative bg-white">
+<h3 class="mb-1"><a href="#" class>Virginia to Finland</a></h3>
+<p class="mb-4">09 Nov 2024 - 16 Nov 2024</p>
+<p class=" border-b pb-2 mb-2">Duis aute irure dolor in reprehenderit in
+voluptate velit esse cillum</p>
+<div class="entry-meta d-flex align-items-center justify-content-between">
+<div class="entry-author d-flex align-items-center">
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="col-lg-6 col-md-6 mb-4">
+<div class="trend-item rounded box-shadow">
+<div class="trend-image position-relative">
+<img src="images/trending/trending4.jpg" alt="image" class>
+<div class="color-overlay"></div>
+</div>
+<div class="trend-content p-4 position-relative bg-white">
+<h3 class="mb-1"><a href="#" class>New Jersey to Texas</a></h3>
+<p class="mb-4">09 Nov 2024 - 16 Nov 2024</p>
+<p class=" border-b pb-2 mb-2">Duis aute irure dolor in reprehenderit in
+voluptate velit esse cillum</p>
+<div class="entry-meta d-flex align-items-center justify-content-between">
+<div class="entry-author d-flex align-items-center">
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="col-lg-5">
+<div class="trend-item1 rounded box-shadow mb-4">
+<div class="trend-image position-relative">
+<img src="images/flights/21.jpg" alt="image" class="w-100">
+<div class="trend-content1 p-4">
+<h3 class="mb-1 white"><a href="#" class="white">Georgia to Dubai</a></h3>
+<p class="white mb-4">09 Dec 2024 - 16 Dec 2024</p>
+<div class="entry-meta d-flex align-items-center justify-content-between">
+<div class="entry-author d-flex align-items-center">
+</div>
+</div>
+</div>
+<div class="color-overlay"></div>
+</div>
+</div>
+<div class="trend-item1 rounded box-shadow mb-4">
+<div class="trend-image position-relative">
+<img src="images/flights/1.jpg" alt="image" class>
+<div class="trend-content1 p-4">
+<h3 class="mb-1 white"><a href="#" class="white">New York to California</a></h3>
+<p class="white mb-4">09 Dec 2024 - 16 Dec 2024</p>
+<div class="entry-meta d-flex align-items-center justify-content-between">
+<div class="entry-author d-flex align-items-center">
+</div>
+</div>
+</div>
+<div class="color-overlay"></div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+
+
+<footer class="pt-20 pb-4" style="background-image: url(images/background_pattern.png);">
+<div class="section-shape top-0" style="background-image: url(images/shape8.png);"></div>
+
+<div class="insta-main pb-10">
+<div class="container">
+<div class="insta-inner">
+<div class="follow-button">
+<h5 class="m-0 rounded"><i class="fab fa-instagram"></i> Follow on Instagram</h5>
+</div>
+<div class="row attract-slider">
+<div class="col-md-3 col-sm-6">
+<div class="insta-image rounded">
+<a href="#"><img src="images/insta/ins-3.jpg" alt="insta"></a>
+</div>
+</div>
+<div class="col-md-3 col-sm-6">
+<div class="insta-image rounded">
+<a href="#"><img src="images/insta/ins-4.jpg" alt="insta"></a>
+</div>
+</div>
+<div class="col-md-3 col-sm-6">
+<div class="insta-image rounded">
+<a href="#"><img src="images/insta/ins-5.jpg" alt="insta"></a>
+</div>
+</div>
+<div class="col-md-3 col-sm-6">
+<div class="insta-image rounded">
+<a href="#"><img src="images/insta/ins-1.jpg" alt="insta"></a>
+</div>
+</div>
+<div class="col-md-3 col-sm-6">
+<div class="insta-image rounded">
+<a href="#"><img src="images/insta/ins-7.jpg" alt="insta"></a>
+</div>
+</div>
+<div class="col-md-3 col-sm-6">
+<div class="insta-image rounded">
+<a href="#"><img src="images/insta/ins-8.jpg" alt="insta"></a>
+</div>
+</div>
+<div class="col-md-3 col-sm-6">
+<div class="insta-image rounded">
+<a href="#"><img src="images/insta/ins-2.jpg" alt="insta"></a>
+</div>
+</div>
+<div class="col-md-3 col-sm-6">
+<div class="insta-image rounded">
+<a href="#"><img src="images/insta/ins-6.jpg" alt="insta"></a>
+</div>
+</div>
+<div class="col-md-3 col-sm-6">
+<div class="insta-image rounded">
+<a href="#"><img src="images/insta/ins-9.jpg" alt="insta"></a>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+
+<div class="footer-upper pb-4">
+<div class="container">
+<div class="row">
+<div class="col-md-4 col-sm-12 mb-4 pe-4">
+<div class="footer-about">
+<img src="images/logo-white.png" alt>
+<p class="mt-3 mb-3 white">We are dedicated to simplifying your travel experience with a focus on convenience, affordability, and exceptional service.</p>
+</div>
+</div>
+<div class="col-md-4 col-sm-12 mb-4">
+<div class="footer-links">
+<h3 class="white">Connect Us</h3>
+<ul>
+<li class="white"><strong>Location:</strong> 2113 Shrewsbury Drive. McKinney<br> Texas 75071</li>
+<li class="white"><strong>Phone:</strong> (888)870-0414</li>
+<li class="white"><strong>Email:</strong> <a href="#">help@airlineticketingdesk.com</a></li>
+<li class="white"><strong>Website:</strong> www.airlineticketingdesk.com</li>
+</ul>
+</div>
+</div>
+<div class="col-md-2 col-sm-12 mb-4">
+<div class="footer-links">
+<h3 class="white">Support</h3>
+<ul>
+<li><a href="#">Privacy Policy</a></li>
+<li><a href="#">Terms &amp; Conditions</a></li>
+<li><a href="#">Refund and Cancellation</a></li>
+</ul>
+</div>
+</div>
+<div class="col-md-2 col-sm-12 mb-4">
+<div class="footer-links">
+<h3 class="white">Quick Links</h3>
+<ul>
+<li><a href="about.html">About Us</a></li>
+<li><a href="contact.html">Contact</a></li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="footer-copyright">
+<div class="container">
+<div class="copyright-inner rounded p-3 d-md-flex align-items-center justify-content-between">
+<div class="copyright-text">
+<p class="m-0 white">2024 AL Ticketing Desk. All rights reserved.</p>
+</div>
+<div class="social-links">
+<ul>
+<li><a href="#"><i class="fab fa-facebook" aria-hidden="true"></i></a></li>
+<li><a href="#"><i class="fab fa-twitter" aria-hidden="true"></i></a></li>
+<li><a href="#"><i class="fab fa-instagram" aria-hidden="true"></i></a></li>
+<li><a href="#"><i class="fab fa-linkedin" aria-hidden="true"></i></a></li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+<div id="particles-js"></div>
+</footer>
+
+
+<div id="back-to-top">
+<a href="#"></a>
+</div>
+
+
+<div class="modal fade log-reg" id="exampleModal" tabindex="-1" aria-hidden="true">
+<div class="modal-dialog">
+<div class="modal-content">
+<div class="modal-body">
+<div class="post-tabs">
+
+<div class="tab-content blog-full" id="postsTabContent">
+
+<div aria-labelledby="login-tab" class="tab-pane fade active show">
+<div class="row">
+<div class="img-cont">
+<img src="images/logo-white.png" alt="image">
+<h3 class="text-center">Flight Reservations, Cancellations, Modifications & Assistance</h3>
+<img src="images/testi.png"><br>
+<a class="nir-btn white text-center"><i class="icon-phone white"></i> (888)870-0414</a>
+<p class="text-center">Save Extra 25% Off On Your First Purchase Exclusive Phone Only Deals</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+
+<script data-cfasync="false" src="../../cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script src="js/jquery-3.5.1.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/particles.js"></script>
+<script src="js/particlerun.js"></script>
+<script src="js/plugin.js"></script>
+<script src="js/main.js"></script>
+<script src="js/custom-nav.js"></script>
+<script>(function(){function c(){var b=a.contentDocument||a.contentWindow.document;if(b){var d=b.createElement('script');d.innerHTML="window.__CF$cv$params={r:'8b6149349d6e443c',t:'MTcyNDE0NTQwMS4wMDAwMDA='};var a=document.createElement('script');a.nonce='';a.src='../../cdn-cgi/challenge-platform/h/b/scripts/jsd/6790c32b9fc9/maind41d.js';document.getElementsByTagName('head')[0].appendChild(a);";b.getElementsByTagName('head')[0].appendChild(d)}}if(document.body){var a=document.createElement('iframe');a.height=1;a.width=1;a.style.position='absolute';a.style.top=0;a.style.left=0;a.style.border='none';a.style.visibility='hidden';document.body.appendChild(a);if('loading'!==document.readyState)c();else if(window.addEventListener)document.addEventListener('DOMContentLoaded',c);else{var e=document.onreadystatechange||function(){};document.onreadystatechange=function(b){e(b);'loading'!==document.readyState&&(document.onreadystatechange=e,c())}}}})();</script><script defer src="https://static.cloudflareinsights.com/beacon.min.js/vcd15cbe7772f49c399c6a5babf22c1241717689176015" integrity="sha512-ZpsOmlRQV6y907TI0dKBHq9Md29nnaEIPlkf84rnaERnq6zvWvPUqr2ft8M1aS28oN72PdrCzSjY4U6VaAw1EQ==" data-cf-beacon='{"rayId":"8b6149349d6e443c","version":"2024.8.0","r":1,"serverTiming":{"name":{"cfL4":true}},"token":"e2e296138d64407b8469055f5cbf0b42","b":1}' crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
+
+<script>
+  $(document).ready(function(){
+      setTimeout(function(){
+      $('#exampleModal1').css('display', 'block'); }, 3000);
+  });
+</script>
+
+
+<script type="text/javascript">
+	var availableTags = [
+            "ATLANTA GA, US (ATL)",
+"BEIJING, CN (PEK)",
+"LONDON, GB (LHR)",
+"CHICAGO IL, US (ORD)",
+"TOKYO, JP (HND)",
+"LOS ANGELES CA, US (LAX)",
+"PARIS, FR (CDG)",
+"DALLAS/FORT WORTH TX, US (DFW)",
+"FRANKFURT, DE (FRA)",
+"HONG KONG, HK (HKG)",
+"DENVER CO, US (DEN)",
+"DUBAI, AE (DXB)",
+"JAKARTA, ID (CGK)",
+"AMSTERDAM, NL (AMS)",
+"MADRID, ES (MAD)",
+"BANGKOK, TH (BKK)",
+"NEW YORK NY, US (JFK)",
+"SINGAPORE, SG (SIN)",
+"GUANGZHOU, CN (CAN)",
+"LAS VEGAS NV, US (LAS)",
+"SHANGHAI, CN (PVG)",
+"SAN FRANCISCO CA, US (SFO)",
+"PHOENIX AZ, US (PHX)",
+"HOUSTON TX, US (IAH)",
+"CHARLOTTE NC, US (CLT)",
+"MIAMI FL, US (MIA)",
+"MUNICH, DE (MUC)",
+"KUALA LUMPUR, MY (KUL)",
+"ROME, IT (FCO)",
+"ISTANBUL, TR (IST)",
+"SYDNEY, AU (SYD)",
+"ORLANDO FL, US (MCO)",
+"INCHEON, KR (ICN)",
+"NEW DELHI, IN (DEL)",
+"BARCELONA, ES (BCN)",
+"LONDON, GB (LGW)",
+"NEWARK NJ, US (EWR)",
+"TORONTO ON, CA (YYZ)",
+"SHANGHAI, CN (SHA)",
+"MINNEAPOLIS MN, US (MSP)",
+"SEATTLE WA, US (SEA)",
+"DETROIT MI, US (DTW)",
+"PHILADELPHIA PA, US (PHL)",
+"MUMBAI, IN (BOM)",
+"SÃO PAULO, BR (GRU)",
+"MANILA, PH (MNL)",
+"CHENGDU, CN (CTU)",
+"BOSTON MA, US (BOS)",
+"SHENZHEN, CN (SZX)",
+"MELBOURNE, AU (MEL)",
+"TOKYO, JP (NRT)",
+"PARIS, FR (ORY)",
+"MEXICO CITY, MX (MEX)",
+"MOSCOW, RU (DME)",
+"ANTALYA, TR (AYT)",
+"TAIPEI, TW (TPE)",
+"ZURICH, CH (ZRH)",
+"NEW YORK NY, US (LGA)",
+"FORT LAUDERDALE, FL, US (FLL)",
+"WASHINGTON, DC, US (IAD)",
+"PALMA DE MALLORCA, ES (PMI)",
+"COPENHAGEN, DK (CPH)",
+"MOSCOW, RU (SVO)",
+"BALTIMORE MD, US (BWI)",
+"KUNMING, CN (KMG)",
+"VIENNA, AT (VIE)",
+"OSLO, NO (OSL)",
+"JEDDAH, SA (JED)",
+"BRISBANE, AU (BNE)",
+"SALT LAKE CITY UT, US (SLC)",
+"DÜSSELDORF, DE (DUS)",
+"BOGOTA, CO (BOG)",
+"MILAN, IT (MXP)",
+"JOHANNESBURG, ZA (JNB)",
+"STOCKHOLM, SE (ARN)",
+"MANCHESTER, GB (MAN)",
+"CHICAGO IL, US (MDW)",
+"WASHINGTON DC, US (DCA)",
+"BRUSSELS, BE (BRU)",
+"DUBLIN, IE (DUB)",
+"SEOUL, KR (GMP)",
+"DOHA, QA (DOH)",
+"LONDON, GB (STN)",
+"HANGZHOU, CN (HGH)",
+"JEJU, KR (CJU)",
+"VANCOUVER BC, CA (YVR)",
+"BERLIN, DE (TXL)",
+"SAN DIEGO CA, US (SAN)",
+"TAMPA FL, US (TPA)",
+"SÃO PAULO, BR (CGH)",
+"BRASILIA, BR (BSB)",
+"SAPPORO, JP (CTS)",
+"XIAMEN, CN (XMN)",
+"RIYADH, SA (RUH)",
+"FUKUOKA, JP (FUK)",
+"RIO DE JANEIRO, BR (GIG)",
+"HELSINKI, FI (HEL)",
+"LISBON, PT (LIS) ",
+"ATHENS, GR (ATH)",
+"AUCKLAND, NZ (AKL)",
+        ];
+
+$("#auto,#auto1").autocomplete({
+    source: function (request, response) {
+        var results = $.ui.autocomplete.filter(availableTags, request.term);
+        
+        if (!results.length) {
+            $("#no-results").text("No results found!");
+        } else {
+            $("#no-results").empty();
+        }
+        
+        response(results);
+    }
+});
+
+</script>
+</body>
+
+</html>
